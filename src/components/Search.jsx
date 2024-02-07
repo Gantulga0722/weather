@@ -6,7 +6,10 @@ export const Search = () => {
       <div className="w-[35px] h-[35px]">
         <SearchIcon />
       </div>
-      <input type="text" className="w-[455px] h-[44px]" />
+      <input
+        type="text"
+        className="w-[455px] h-[44px] outline-none bg-[#FAFBFC]"
+      />
     </div>
   );
 };
